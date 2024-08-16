@@ -1,7 +1,9 @@
 # MIPS Maze Game
 
-**Course:** Computer Systems and Architecture  
-**Year:** First Year Computer Science
+![Preview](preview.png)
+
+
+**Course:** Computer Systems and Architecture (Ba1 Computer Science)
 
 ## Overview
 
@@ -27,8 +29,19 @@ The MIPS Maze Game is a simple maze navigation game implemented in MIPS assembly
 2. **Download MARS**: Obtain the MARS simulator from the [MARS website](http://courses.missouristate.edu/kenvollmar/mars/).
 
 
-3. **Run MARS**: Open the MARS JAR file using Java.
-4. **Load the Project**: Open the `.asm` file in MARS.
+3. **Run MARS**: Navigate to the right directory and open the MARS JAR file using Java.
+```bash
+     java -jar Mars_*.jar
+```
+   Replace `Mars_*.jar` with the exact name of the JAR file you downloaded.
+4. **Load the Project**: Open the `game.asm` file in MARS.
+5. **Configure the bitmap**: 
+- Go to Tools > Bitmap Display.
+- Change the settings exactly as shown below.
+![Bitmap](bitmap.png)
+- Click 'connect to MIPS' and don't close this window
 5. **Assemble and Run**: Assemble the code and run the game to navigate the maze.
 
-For more details on the implementation and gameplay, refer to the project's source code and comments within the `.asm` files.
+## How to play:
+Navigate the yellow square to the green square using ZQSD controls. That's it!
+
