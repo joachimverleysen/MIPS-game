@@ -3,7 +3,6 @@
 ![Preview](images/preview.png)
 
 
-**Course:** Computer Systems and Architecture (Ba1 Computer Science)
 
 ## Overview
 
