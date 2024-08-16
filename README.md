@@ -1,57 +1,34 @@
-# Installation Guide for MIPS Game
+# MIPS Maze Game
 
-Welcome to the installation guide for my MIPS game! This guide will help you set up the environment and run your MIPS assembly files using MARS (MIPS Assembler and Runtime Simulator).
+**Course:** Computer Systems and Architecture  
+**Year:** First Year Computer Science
 
-## Requirements
+## Overview
 
-1. **Java Runtime Environment (JRE)**
-   - MARS is a Java application and requires a JRE to run. You can install the latest version of JRE with the following steps:
-     - **On Linux**:
-       ```bash
-       sudo apt-get update
-       sudo apt-get install default-jre
-       ```
-     - **On Windows**: Download and install the latest JRE from the [official Oracle website](https://www.oracle.com/java/technologies/javase-downloads.html).
+The MIPS Maze Game is a simple maze navigation game implemented in MIPS assembly language. Developed as part of a Computer Systems and Architecture course, this game allows players to navigate through a maze using basic MIPS instructions.
 
-2. **MARS (MIPS Assembler and Runtime Simulator)**
-   - Download the MARS JAR file from the [official website](http://courses.missouristate.edu/kenvollmar/mars/). Look for the latest version and download the file named `Mars_*.jar`.
+## Features
 
-## Installation
+- **Maze Navigation**: Move a character through a grid-based maze.
+- **Basic Controls**: Use keyboard inputs to control movement.
+- **Collision Detection**: Detect collisions with walls.
+- **Exit Identification**: Determine when the player reaches the maze's exit.
 
-1. **Download and Install MARS**:
-   - Download the MARS JAR file (`Mars_*.jar`) to a location on your computer.
+## Technical Details
 
-2. **Start MARS**:
-   - Open a terminal or command prompt.
-   - Navigate to the directory where you downloaded the MARS JAR file. For example:
-     ```bash
-     cd /path/to/downloads
-     ```
-   - Start MARS with the following command:
-     ```bash
-     java -jar Mars_*.jar
-     ```
-     Replace `Mars_*.jar` with the exact name of the JAR file you downloaded.
+- **Language**: MIPS Assembly
+- **Simulator**: MARS MIPS Simulator
+- **Implementation**: Utilizes basic MIPS instructions for control flow, memory management, and user interaction.
 
-## Usage
 
-1. **Open Your MIPS Files**:
-   - Once MARS is open, click `File` > `Open` and select your `.asm` files.
+## Installation and Usage
 
-2. **Assemble**:
-   - Click `Assemble` in the menu bar to compile your MIPS code. This will compile the code and report any syntax errors.
+1. **Install Java**: Ensure that Java Runtime Environment (JRE) is installed on your system. MARS is a Java application and requires JRE to run. You can download it from the [official Oracle website](https://www.oracle.com/java/technologies/javase-downloads.html).
+2. **Download MARS**: Obtain the MARS simulator from the [MARS website](http://courses.missouristate.edu/kenvollmar/mars/).
 
-3. **Run the Code**:
-   - Click `Run` > `Go` to execute your MIPS program. You can also step through your code using the `Step` and `Step Over` buttons.
 
-4. **View Results**:
-   - You can view the output and registers through the various tabs and windows in MARS.
+3. **Run MARS**: Open the MARS JAR file using Java.
+4. **Load the Project**: Open the `.asm` file in MARS.
+5. **Assemble and Run**: Assemble the code and run the game to navigate the maze.
 
-## Troubleshooting
-
-- **If MARS does not start**:
-  - Ensure you have the latest version of Java installed.
-  - Verify that the JAR file is not corrupted and that you are using the correct command to run it.
-  - Check for any error messages in the terminal or command prompt and refer to the MARS documentation for additional support.
-
-For any further questions or issues, please refer to the [MARS User Guide](http://courses.missouristate.edu/kenvollmar/mars/) or seek help from relevant forums and communities.
+For more details on the implementation and gameplay, refer to the project's source code and comments within the `.asm` files.
