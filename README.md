@@ -32,17 +32,17 @@ The MIPS Maze Game is a simple maze navigation game implemented in MIPS assembly
 ```bash
      java -jar Mars_*.jar
 ```
-   Replace `Mars_*.jar` with the exact name of the JAR file you downloaded.
+Replace `Mars_*.jar` with the exact name of the JAR file you downloaded.
+
 4. **Load the Project**: Open the `game.asm` file in MARS.
+
 5. **Configure the bitmap**: 
 - Go to Tools > Bitmap Display.
 - Change the settings exactly as shown below.
 ![Bitmap](images/bitmap.png)
 - Click 'connect to MIPS' and don't close this window
-5. **Assemble and Run**: Assemble the code and run the game to navigate the maze.
+6. **Assemble and Run**: Assemble the code and run the game to navigate the maze using ZQSD controls.
 
-## How to play:
-Navigate the yellow square to the green square using ZQSD controls. That's it!
 
 ## Custom Maze Creation
 
